@@ -1,0 +1,16 @@
+<!-- <span class="title" style="padding: 0 24px 9px;">Info</span> -->
+<span mat-dialog-title class="title">Info</span>
+<!-- <h1 style="padding: 0 24px 9px;"><b>Error</b></h1> -->
+<div style="padding: 24px 24px 9px;">
+    <br>
+    <p>
+        <span [innerHTML]="data.text ? data.text : 'The operation was successfully executed.'"></span>
+        <br>
+        <br>
+    </p>
+    <br>
+</div>
+
+<mat-dialog-actions align="end">
+    <button mat-flat-button mat-dialog-close [color]="data.type === type.Warning ? 'warn' : ''">OK</button>
+</mat-dialog-actions>

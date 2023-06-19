@@ -1,0 +1,16 @@
+<h1 style="padding: 0 24px 9px;"><b>Are you sure?</b></h1>
+<div style="padding: 0 24px 9px;">
+    <br>
+    <p>
+        You're about to discard <b style="font-size:18px">{{ data.name }}</b>
+        <br>
+        <br>
+        Do you wish to continue?
+    </p>
+    <br>
+</div>
+
+<div mat-dialog-actions align="end">
+    <button mat-flat-button (click)="cancel()">No</button>
+    <button mat-flat-button color="warn" (click)="yes()">Yes</button>
+</div>

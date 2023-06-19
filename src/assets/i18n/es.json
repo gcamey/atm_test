@@ -1,0 +1,34 @@
+{
+    "i18n_GENERAL": {
+        "label_required_field": "Campo obligatorio",
+        "automation_atm": "Automatización <span class='atm_tag'>ATM</span>"
+    },
+    "i18n_LOGIN": {        
+        "username": "Usuario",
+        "password": "Contraseña",
+        "log_in": "Entrar",
+        "incorrect_credentials": "Credenciales incorrectas"
+    },
+    "i18n_HEADER": {
+        "automation_atm": "Automatización <span class='atm_tag'>ATM</span>",
+        "log_out": "Salir"
+    },
+    "i18n_ATM_SEARCH": {
+        "atm_search": "Búsqueda de cajeros",
+        "client": "Cliente",
+        "atm_name": "Cajero",
+        "location": "Ubicación",
+        "model": "Modelo",
+        "responsible": "Responsable",
+        "operator": "Operador",
+        "actions": "Acciones"
+    },
+    "i18n_PAGINATOR": {
+        "items_per_page": "Filas por página",
+		"first_page": "Inicio",
+		"last_page": "Último",
+		"next_page": "Siguiente",
+		"previous_page": "Anterior",
+		"of": "de"
+    }
+}

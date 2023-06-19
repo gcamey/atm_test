@@ -1,0 +1,37 @@
+<div class="background">
+</div>
+<div class="frame">
+</div>
+<div class="content">
+  <div class="container">
+    <form [formGroup]="form" class="login-box" (ngSubmit)="login()">
+      <div class="title-login" [innerHTML]="'i18n_GENERAL.automation_atm' | translate"></div>
+      <div class="field-div">
+        <mat-form-field class="field">
+          <mat-label>{{'i18n_LOGIN.username' | translate }}</mat-label>
+          <input matInput formControlName="username" required class="input-field">
+          <mat-error>
+            <span *ngIf="form.controls['username'].hasError('required')">
+              {{'i18n_GENERAL.label_required_field' | translate}}
+            </span>
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="field-div">
+        <mat-form-field class="field">
+          <mat-label>{{'i18n_LOGIN.password' | translate }}</mat-label>
+          <input matInput [type]="hidePassword ? 'password' : 'text'" formControlName="password" required class="input-field">
+          <mat-icon matSuffix (click)="hidePassword = !hidePassword" class="material-symbols-outlined visibility-icon" [attr.aria-label]="'hidePassword password'" [attr.aria-pressed]="hidePassword">{{hidePassword ? 'visibility_off' : 'visibility'}}</mat-icon>
+          <mat-error>
+            <span *ngIf="form.controls['password'].hasError('required')">
+              {{'i18n_GENERAL.label_required_field' | translate}}
+            </span>
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="container-button">
+          <button type="submit" mat-raised-button class="login-button">{{'i18n_LOGIN.log_in' | translate }}</button>
+      </div> 
+    </form>
+  </div>
+</div>

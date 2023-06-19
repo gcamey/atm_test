@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "clientName": "Santander",
+      "atmName": "SANTI 00234",
+      "location": "Qro. Centro 11",
+      "model": "DIEBU 293004M",
+      "responsible": "Julio Martínez L.",
+      "operator": "Jorge Nagaya Galván"
+    },
+    {
+      "id": 2,
+      "clientName": "Santander",
+      "atmName": "SANTI 44551",
+      "location": "Qro. Centro 12",
+      "model": "DIEBU 293004M",
+      "responsible": "Julio Martínez L.",
+      "operator": "Jorge Nagaya Galván"
+    },
+    {
+      "id": 3,
+      "clientName": "Santander",
+      "atmName": "SANTI 66890",
+      "location": "Qro. Santec 03",
+      "model": "DIEBU 293004M",
+      "responsible": "Julio Martínez L.",
+      "operator": "Jorge Nagaya Galván"
+    }
+]

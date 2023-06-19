@@ -1,0 +1,34 @@
+{
+    "i18n_GENERAL": {
+        "label_required_field": "Required field",
+        "automation_atm": "<span class='atm_tag'>ATM</span> Automation"
+    },
+    "i18n_LOGIN": {
+        "username": "Username",
+        "password": "Password",
+        "log_in": "Enter",
+        "incorrect_credentials": "Incorrect credentials"
+    },
+    "i18n_HEADER": {
+        "automation_atm": "<span class='atm_tag'>ATM</span> Automation",
+        "log_out": "Log out"
+    },
+    "i18n_ATM_SEARCH": {
+        "atm_search": "ATM search",
+        "client": "Client",
+        "atm_name": "ATM name",
+        "location": "Location",
+        "model": "Model",
+        "responsible": "Responsible",
+        "operator": "Operator",
+        "actions": "Actions"
+    },
+    "i18n_PAGINATOR": {
+        "items_per_page": "Items per page",
+		"first_page": "First page",
+		"last_page": "Last page",
+		"next_page": "Next",
+		"previous_page": "Previous",
+		"of": "of"
+    }
+}

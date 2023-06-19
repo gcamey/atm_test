@@ -1,0 +1,15 @@
+<div *ngIf="(isLoggedIn$ || !isLoggedIn$)  | async">
+<div class="background"></div>
+<div class="frame"></div>
+<!-- <mat-toolbar color="primary" *ngIf="(isLoggedIn$ || !isLoggedIn$)  | async"> -->
+<mat-toolbar class="toolbar" color="primary">
+    <mat-toolbar-row class="content-header">
+        <div class="title-header" [innerHTML]="'i18n_GENERAL.automation_atm' | translate" (click)="goToHome()"></div>
+        <span class="spacer"></span>
+        <span class="logout-span" (click)="onLogout()">{{'i18n_HEADER.log_out' | translate }}</span>
+        <button mat-icon-button class="example-icon" aria-label="Logout" (click)="onLogout()" >
+            <mat-icon class="material-symbols-outlined">logout</mat-icon>
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+</div>
